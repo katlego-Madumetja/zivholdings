@@ -1,0 +1,61 @@
+:root {
+    --black: #111111;
+    --white: #ffffff;
+    --gold: #c9a24d;
+    --green: #1f7a63;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.site-header {
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 2px solid var(--gold);
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: -50px;
+}
+
+.tagline {
+    color: var(--green);
+    font-weight: 500;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 20px;
+}
+
+h2 {
+    color: var(--green);
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 5px;
+}
+
+a {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid var(--gold);
+    font-size: 0.9em;
+    background-color: #f8f8f8;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        max-width: 120px;
+    }
+}
